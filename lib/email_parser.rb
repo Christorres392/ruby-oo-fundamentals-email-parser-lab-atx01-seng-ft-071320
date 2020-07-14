@@ -9,5 +9,5 @@ class EmailAddressParser
     @parser = parser
   end
   def parse
-    @parser.split().uniqu
+    @parser.split().uniq
 end
