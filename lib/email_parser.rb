@@ -8,5 +8,5 @@ class EmailAddressParser
   def intialize (parser_email)
     @parser_email = parser_email
   end
-  
+  def
 end
