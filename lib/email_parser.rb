@@ -9,6 +9,6 @@ class EmailAddressParser
     @parser = parser
   end
   def parse
-    @parser = parse.split(/[\s,']/)
+    @parser.split(/[\s,']/)
   end
 end
