@@ -4,6 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser
+  delimiters = [', ', ' ', "'"]
   attr_accessor :parser
   def initialize (parser)
     @parser = parser
