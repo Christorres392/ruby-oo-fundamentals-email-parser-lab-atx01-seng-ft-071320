@@ -4,12 +4,12 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  delimiters = [',', ' ', "'"]
   attr_accessor :parser
   def initialize (parser)
     @parser = parser
   end
   def parse
+    
     @parser.split(Regexp.union(delimiters))
   end
 end
